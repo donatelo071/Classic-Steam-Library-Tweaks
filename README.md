@@ -1,52 +1,19 @@
-[![Video](https://i.imgur.com/vHOXT4X.png)](https://www.youtube.com/watch?v=IoKg5fYlZLs)
-<div class ="intro">
-<hr>
-<br>
-<br>
-Returns the Steam library to it's 2013 and 2015 era looks with CSS tweaks instead of reverting it.
-<br>
-This is a large scale and somewhat messy project that has taken place over the course of several years. Things are not perfect here, but you probably aren't here for that.
-</div>
-<br>
-<br>
-<br>
-<div class="a-container">
-    <div class="image-gradient" id="left">
-        <img src="https://i.imgur.com/jyZZCCl.png" alt="Friends">
-    </div>
-    <div id="right">
-        <h2>A Complete Rework</h2>
-        <p>Almost every panel has been given a complete makeover, looking more in line with the Steam we used to know. Every part of the library, friends list, and even some parts of the Store and Community pages have been touched in some way.</p>
-    </div>
-</div>
-<br>
-<br>
-<br>
-<div class="image-gradient" id="left">
-    <img src="https://i.imgur.com/Y5wJeOA.png">
-</div>
-<br>
+changes:
 
-## Trimming the Fat
-Poorly performing and visually noisy areas of the vanilla client have been smoothed over. No longer will your system be assaulted by achievement spam! Certain "Problem games" (Such as PAYDAY 2) used to add thousands of elements to facilitate poorly thought out community features. All of this has been removed. Everything is repositioned to maximize both space and content on screen in a sensible way. Gone are the distracting game banners that hide crucial features for aesthetic purposes. Everything unnecessary is out of the way or straight up gone — as they should be.
-<br>
-<br>
-<br>
-<div class="image-gradient" id="left">
-    <img src="https://i.imgur.com/lpfzOPl.png">
-</div>
-<br>
 
-## The Activity Feed, Rethought!
-What was once a hub of useless spam is now a re-envisioned version of the old "News" panel. All of your game's updates, now in one place! I mean, it's not like you actually use the "What's New" shelf... right?
-<br>
-<br>
-<br>
-## Installation
-Installation differs slightly between Millennium and SFP. For SFP, drop the theme in the `skins` folder inside `steamui`. The format should be `Steamui > Skins > 2013steam > *files*`. Leave SFP patching. Do not close it. 
-<br>
-<br>
-For Millennium, open the Millennium Community page and drop the theme onto Millennium. Then enable in your interface settings.
-<br>
-<br>
-For Manual Installation in Millennium, drop the theme in your `steamui > skins` Folder.
+
+- update queued/updating games now have their name properly colored in the library's list view<br>
+![image](https://github.com/user-attachments/assets/368b61b7-f269-4ae9-a829-e6092f62481a) ![steamwebhelper_katJnEsGsW](https://github.com/user-attachments/assets/e1abf7a0-709b-423d-836b-71c2f0fce792)
+
+- styled the steam console
+![steamwebhelper_Y8tAzUWNnJ](https://github.com/user-attachments/assets/eb5003e8-a370-42e6-b4f4-dc666c8877a1)
+
+- made the "Add a game" button more accurate<br>
+![steamwebhelper_FzsRabXoSC](https://github.com/user-attachments/assets/6977c501-73a4-4e9e-8aa2-8dfc2597e7b4)
+
+- changed the navbar's glow a little bit<br>
+old: ![ss](https://github.com/user-attachments/assets/16537aa9-f8d7-49b0-86a8-c6c2041893f5) new: ![steamwebhelper_IhyO25594M](https://github.com/user-attachments/assets/54b5c1f9-7dae-4cfa-b831-77d3897d7808)
+
+
+- hid the Family sharing alert you get when you're not in the family sharing beta
+- made the items in the library's list view a bit thicker and made their background a bit darker when they're being viewed 4 better accuracy
