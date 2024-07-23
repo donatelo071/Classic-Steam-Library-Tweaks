@@ -2235,6 +2235,11 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase {
     border-radius: 10px;
 }
 
+._1FnTqlsi2_-TJf1d5apoS6 {
+    background-color: var(--updatecolor) !important;
+    border-radius: 0 !important;
+}
+
 /* Other stuff */
 
 ._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ, ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ {
