@@ -39,17 +39,27 @@
     "funding": {
         "kofi": "naii_"
     },
+    "git": {
+        "commit": "0976c0d77c7821ff5501875b0018f481be4e63e3",
+        "date": "2024-07-05T02:56:34Z",
+        "download": "https://codeload.github.com/eyedine2/Classic-Steam-Library/zip/refs/heads/main",
+        "message": "Update README.md",
+        "url": "https://github.com/eyedine2/Classic-Steam-Library/commit/0976c0d77c7821ff5501875b0018f481be4e63e3"
+    },
     "github": {
         "owner": "eyedine2",
         "repo_name": "Classic-Steam-Library"
     },
     "header_image": "https://i.imgur.com/05lFTXw.png",
     "name": "Classic Steam Library",
+    "native-name": "Classic-Steam-Library-main",
+    "remote": false,
     "source": "https://github.com/eyedine2/Classic-Steam-Library/tree/main",
     "splash_image": "https://i.imgur.com/05lFTXw.png",
     "tags": [
         "Dark",
         "Classic"
     ],
+    "update_required": false,
     "version": "1.0"
 }
