@@ -12,7 +12,7 @@ changes:
 ![steamwebhelper_FzsRabXoSC](https://github.com/user-attachments/assets/6977c501-73a4-4e9e-8aa2-8dfc2597e7b4)
 
 - changed the navbar's glow a little bit<br>
-old: ![ss](https://github.com/user-attachments/assets/16537aa9-f8d7-49b0-86a8-c6c2041893f5) new: ![steamwebhelper_IhyO25594M](https://github.com/user-attachments/assets/54b5c1f9-7dae-4cfa-b831-77d3897d7808)
+old: ![ss](https://github.com/user-attachments/assets/16537aa9-f8d7-49b0-86a8-c6c2041893f5)<br> new: ![steamwebhelper_IhyO25594M](https://github.com/user-attachments/assets/54b5c1f9-7dae-4cfa-b831-77d3897d7808)
 
 
 - hid the Family sharing alert you get when you're not in the family sharing beta
