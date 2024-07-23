@@ -39,7 +39,6 @@
 	--almostBlack-master: var(--almostBlack);
 	--Highlight5-master: var(--Highlight5);
 	--clientbg-master: var(--clientbg);
-	--updatecolor: #bfa547;
 	
 	/* imgs */
 
@@ -141,5 +140,6 @@
 	--almostBlack: rgb(23,22,20);
 	--Highlight5: rgb(77,103,140);
 	--clientbg: black;
+	--updatecolor: #bfa547;
 	
 }
