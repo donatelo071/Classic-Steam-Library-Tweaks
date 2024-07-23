@@ -132,7 +132,8 @@
 /* Left View Collection Header */
 
 ._2sYIghGVXJr6tsQVvcryy8 {
-	border: 0px !important;
+    border: 0px !important;
+    height: 25px;
 }
 
 /* Left View Collection Header */
@@ -2454,6 +2455,10 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase {
 
 ._2foCkpRXhqq0UGVE50BWqj *, .ip-YZhijAMZcuRoXBGiye *, ._1TdaAqMFadi0UTqilrkelR * {
     color: var(--label-master) !important;
+}
+
+.ip-YZhijAMZcuRoXBGiye {
+    margin-right: -16px !important;
 }
 
 ._2VtAqT03BpBsVdmxwptn9D ._1KrJ3sFAqPBN9mfpaNTU5F {
