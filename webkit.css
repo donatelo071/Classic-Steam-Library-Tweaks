@@ -8,8 +8,23 @@
     display: none;
 }
 
+._3GaHEQJW9B1Rlt0Ddz3E8D {
+    display: none !important;
+}
+
 .messagelist_MessageListScroll_2RW7G {
     margin-top: 15px;
+}
+
+/* +  ADD A GAME... */
+
+._3OhUxFVlQYr9W5ThxstR8k::after{
+    font-size: 12px;
+    color: #8b929a;
+    font-weight: 400;
+    transition-property: color;
+    transition-duration: .1s;
+    transition-timing-function: ease-in-out;
 }
 
 /* Global */

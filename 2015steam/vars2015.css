@@ -39,7 +39,7 @@
 	--almostBlack-master: var(--almostBlack-new);
 	--Highlight5-master: var(--Highlight5-new);
 	--clientbg-master: var(--clientbg-new);
-
+	
 	/* imgs */
 
 	--logotexture: none;
@@ -140,5 +140,6 @@
 	--almostBlack-new: rgb(22,25,28);
 	--Highlight5-new: rgb(24,53,82);
 	--clientbg-new: rgb(18,26,42);
+	--updatecolor: #26b9ff;
 	
 }
