@@ -141,5 +141,8 @@
 	--Highlight5-new: rgb(24,53,82);
 	--clientbg-new: rgb(18,26,42);
 	--updatecolor: #26b9ff;
-	
+	--consolebgdown: #141413;
+	--consolebgup: #2e2e2e;
+	--consoleborder: #00000000;
+
 }

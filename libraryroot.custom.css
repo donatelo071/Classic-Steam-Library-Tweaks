@@ -2167,23 +2167,33 @@ img._dijeIFQK07Fymccmf6qA._3XYFKZ4dGPY0v1xxXRIwm6 {
 
 /* Console */
 ._1fuML-ekRbTEzgzC597yGP {
-    background: #363533;
+    /*background: linear-gradient(0deg, #141413 , #2e2e2e);*/
+    background: linear-gradient(0deg, var(--consolebgdown) , var(--consolebgup));
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     user-select: text;
-    border: 1px solid #50504f;
+    border: 1px solid var(--consoleborder);
 }
 
 input.DialogInput.DialogInputPlaceholder.DialogTextInputBase {
     height: 24px;
     padding: 0;
     background: none;
-    border: 1px solid var(--buttonborder-master);
+    border: 1px solid rgb(90 90 90) !important;
     border-radius: 0px !important;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+._3S6c8sJBYgCcCWf9JGDkOu ._3C1UCvuAZ2oINYSTpUPD04 { /* command suggestions */
+    padding: 2px;
+    background: var(--darkclientbg-master);
+    border-radius: 0em !important;
+    height: 18px;
+    cursor: pointer;
+    text-align: center !Important;
 }
 
 /* Update/Cloud error colors */

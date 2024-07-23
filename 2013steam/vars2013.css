@@ -141,5 +141,8 @@
 	--Highlight5: rgb(77,103,140);
 	--clientbg: black;
 	--updatecolor: #bfa547;
+	--consolebgdown: var(--dialogbg-master);
+	--consolebgup: var(--dialogbg-master);
+	--consoleborder: rgb(90 90 90);
 	
 }
