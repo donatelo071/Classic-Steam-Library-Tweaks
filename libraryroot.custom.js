@@ -1,19 +1,4 @@
-// Collection Panel repositioned beneath linkssection, by shadow
-
-const h = '._2b6WkTnmJxMuX1biL7aS3C.Panel'
-const i = '_2meE3N6-Wkw3yQUVtQK-i8'
-const n = '.DgVQapkBmhAW6oPY5rPZo.Panel'
-new MutationObserver((mo) => {
-	mo.forEach(function(m) {
-		m.addedNodes.forEach(function() {
-			const c = document.querySelector(h)
-            c.parentNode.classList.contains(i) && document.querySelector(n).append(c)
-		});
-	});
-}).observe(document.body, { childList: true, subtree: true });
-
-// Friends count near friends button, by ricewind012
-
+// ricewind012's friends online count code
 if (document.title == 'Steam') {
 	const {
 		friendStore,
@@ -29,13 +14,11 @@ if (document.title == 'Steam') {
 	);
 
 	function updateFriendsCount() {
-		const friendsOnline = [...friendStore.m_setFriends]
-			.filter((e) => friendStore.GetFriendState(e).m_persona.is_online)
-			.length;
+		const friendsOnline = friendStore.m_FriendsUIFriendStore.online_friends.length // the fixed part
 
 		document.body.style.setProperty('--friends-online-count', '"' + friendsOnline + '"');
 	}
-
+	
 	// wait a bit for chat to load
 	setTimeout(() => {
 		updateFriendsCount();

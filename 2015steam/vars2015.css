@@ -145,4 +145,6 @@
 	--consolebgup: #2e2e2e;
 	--consoleborder: #00000000;
 
+	/* Friends Online Count */
+	--friends-online-count: "0";
 }

@@ -2120,13 +2120,6 @@ img._dijeIFQK07Fymccmf6qA._3XYFKZ4dGPY0v1xxXRIwm6 {
     text-transform: uppercase;
 }
 
-._1TdaAqMFadi0UTqilrkelR {
-    width: 137px;
-    height: 100% !important;
-    margin-right: 17px;
-    margin-bottom: 0 !important;
-}
-
 /* +  ADD A GAME... */
 
 ._1KrJ3sFAqPBN9mfpaNTU5F{
@@ -2239,6 +2232,58 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase {
     background-color: var(--updatecolor) !important;
     border-radius: 0 !important;
 }
+
+
+/* + FRIENDS & CHAT -> VIEW FRIENDS LIST */
+._1TdaAqMFadi0UTqilrkelR ._3OhUxFVlQYr9W5ThxstR8k::before {
+    content: "VIEW FRIENDS LIST";
+    font-size: 12px;
+    color: #d5d5d5;
+    font-weight: 400;
+    display: inline !important;
+    transition-property: color;
+    transition-duration: .1s;
+    transition-timing-function: ease-in-out;
+}
+._1TdaAqMFadi0UTqilrkelR ._3OhUxFVlQYr9W5ThxstR8k::after {
+    content: var(--friends-online-count) ' Online' !important;
+    font-size: 12px !important;
+    color: #7a7a7a !important;
+    font-weight: 400 !important;
+    display: block !important;
+    transition-property: color;
+    transition-duration: .1s;
+    transition-timing-function: ease-in-out;
+    margin-bottom:-3px;
+    display: block;
+    text-align: right;
+    text-transform: none;
+}
+
+._1TdaAqMFadi0UTqilrkelR ._3OhUxFVlQYr9W5ThxstR8k::before:hover {
+    text-decoration: underline !important;
+    cursor: pointer !important;
+    color: white !important;
+}
+
+._1TdaAqMFadi0UTqilrkelR ._3OhUxFVlQYr9W5ThxstR8k {
+    font-size: 0px;
+    margin-bottom: 15px !important;
+    color: white !important;
+}
+
+._1TdaAqMFadi0UTqilrkelR ._3OhUxFVlQYr9W5ThxstR8k:hover {
+    text-decoration: underline !important;
+    cursor: pointer !important
+}
+
+._1TdaAqMFadi0UTqilrkelR {
+    width: 137px;
+    height: 100% !important;
+    margin-right: 16px;
+    margin-bottom: 0 !important;
+}
+
 
 /* Other stuff */
 
