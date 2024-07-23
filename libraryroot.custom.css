@@ -2218,6 +2218,13 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase {
     color: var(--updatecolor);
 }
 
+._2_FomluqqgQ2Hx8ON3AVep .wi0pDywRgOCxhG7OqQNaA {
+    height: 3px;
+    --color-progress-bar-foreground: var(--updatecolor);
+    --color-progress-bar-background: #000000;
+    border-radius: 10px;
+}
+
 /* Other stuff */
 
 ._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ, ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ {
