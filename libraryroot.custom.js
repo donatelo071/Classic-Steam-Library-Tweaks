@@ -28,3 +28,5 @@ if (document.title == 'Steam') {
 		updateFriendsCount();
 	}, friendsUpdateInterval * 1_000);
 }
+
+

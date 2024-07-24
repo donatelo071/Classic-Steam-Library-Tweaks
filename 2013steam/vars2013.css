@@ -56,6 +56,8 @@
 	--bpmimg3: url(https://i.imgur.com/9pOiWkV.png);
 	--bpmwidth: 92px;
 	--bpmheight: 64px;
+	--bpmarginleft: initial;
+	--bpmarginright: initial;
 	
 	/* category / sort panel */
 	
@@ -147,4 +149,8 @@
 	
 	/* Friends Online Count */
 	--friends-online-count: "0";
+
+	/* # of # items complete */
+	--capitalizeDownloads: none;
+	
 }

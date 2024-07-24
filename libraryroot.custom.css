@@ -2129,6 +2129,7 @@ img._dijeIFQK07Fymccmf6qA._3XYFKZ4dGPY0v1xxXRIwm6 {
 
 ._3OhUxFVlQYr9W5ThxstR8k:hover {
 	color:white !important;
+    filter: brightness(1.5);
 }
 
 ._3OhUxFVlQYr9W5ThxstR8k{
@@ -2160,8 +2161,8 @@ img._dijeIFQK07Fymccmf6qA._3XYFKZ4dGPY0v1xxXRIwm6 {
 }
 
 /* Console */
+
 ._1fuML-ekRbTEzgzC597yGP {
-    /*background: linear-gradient(0deg, #141413 , #2e2e2e);*/
     background: linear-gradient(0deg, var(--consolebgdown) , var(--consolebgup));
     width: 100%;
     height: 100%;
@@ -2285,6 +2286,102 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase {
     margin-bottom: 0 !important;
 }
 
+/* account dropdown */
+
+._3yD46y5pd3zOGR7CzKs0mC ._2jphjrSifC6orDT4g_7Wd {
+    color: #d5d5d5;
+}
+
+._3yD46y5pd3zOGR7CzKs0mC.online, ._3yD46y5pd3zOGR7CzKs0mC.offline, .awayOrSnooze {
+    color: #d5d5d5;
+}
+
+._3yD46y5pd3zOGR7CzKs0mC.online :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder)::after, ._3yD46y5pd3zOGR7CzKs0mC.offline :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder)::after, .awayOrSnooze :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder)::after {
+    color: #d5d5d5;
+}
+
+._3yD46y5pd3zOGR7CzKs0mC.online :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder)::after, ._3yD46y5pd3zOGR7CzKs0mC.offline :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder)::after, .awayOrSnooze :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder)::after {
+    color: inherit;
+    display: inline;
+    content: "'s Account";
+}
+
+._3yD46y5pd3zOGR7CzKs0mC.online :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder)::after, ._3yD46y5pd3zOGR7CzKs0mC.offline :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder)::after, .awayOrSnooze :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder):hover {
+    color: inherit;
+    display: inline;
+}
+
+._3yD46y5pd3zOGR7CzKs0mC ._3x51wbt5DYyWC8JKwQ51ir {
+    background: url('https://store.akamai.steamstatic.com/public/shared/images/popups/btn_arrow_down_padded.png'); /* old dropdown arrow */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10px;
+    padding-top: 2px;
+    color: transparent !important;
+    filter:inherit;
+}
+
+._3yD46y5pd3zOGR7CzKs0mC ._2jphjrSifC6orDT4g_7Wd {
+    margin-left: -106% !important;
+    color: #d5d5d5;
+    border-right: none;
+    padding-right: 3%;
+    text-align: -webkit-left;
+}
+
+._3yD46y5pd3zOGR7CzKs0mC ._2jphjrSifC6orDT4g_7Wd::after {
+    content: "|";
+    display: inline;
+    font-size: 13px;
+    margin-left: 12%;
+    color: #7c7c7c;
+}
+
+._3yD46y5pd3zOGR7CzKs0mC:not(._2jphjrSifC6orDT4g_7Wd):hover {
+    color: white !important;
+    background-color: rgb(255 255 255 / 0%);
+    transition: background-color .15s ease-out;
+    cursor: pointer;
+}
+
+._2Lu3d-5qLmW4i19ysTt2jT {
+    height: fit-content;
+    -webkit-app-region: no-drag;
+    text-align: -webkit-right;
+}
+
+._3cykd-VfN_xBxf3Qxriccm ._1n8t0vHFud57AoJ_IDgA9C, ._3cykd-VfN_xBxf3Qxriccm ._32TmRVFkc8HMIUZ-KnnKby, ._3cykd-VfN_xBxf3Qxriccm ._1AcQ7PwcnBGsbAmuKOZHvd, ._3cykd-VfN_xBxf3Qxriccm ._13vrqU6oOqmmxrsZSW5O39, ._3cykd-VfN_xBxf3Qxriccm ._3arz-hc3FJ0QKXLPRUSaah, ._3cykd-VfN_xBxf3Qxriccm ._5wILZhsLODVwGfcJ0hKmJ, ._3cykd-VfN_xBxf3Qxriccm .EdtW0igyTLSSiXq1Mcc8F, ._3cykd-VfN_xBxf3Qxriccm ._3mGEzzp18imtSzGPkduedi, ._3cykd-VfN_xBxf3Qxriccm ._3yD46y5pd3zOGR7CzKs0mC, ._3cykd-VfN_xBxf3Qxriccm .Utdt7JrpIm5JlpQmqyj1v {
+    margin-right: -63px;
+}
+
+._2Szzh5sKyGgnLUR870zbDE.RtSv39ZoBOySnb8XQ5hJf:not(._3L1c8C0o_xXzPy26aoLBFd) {
+    margin-right: 0px !important;
+    border: var(--ctrlbuttonborderwidth) solid var(--buttonface2-master);
+}
+
+.Focusable ._3mGEzzp18imtSzGPkduedi {
+    margin-right: 77px;
+}
+
+/* big picture adjustments */
+
+._2Szzh5sKyGgnLUR870zbDE._3LKQ3S_yqrebeNLF6aeiog {
+    margin-left: var(--bpmarginleft);
+    margin-right: var(--bpmarginright);
+}
+
+/* # of # items complete thing */
+.ip-YZhijAMZcuRoXBGiye ._3wJnTtcTLEp0R7eQj_mK8Y {
+    font-size: 12px;
+    text-transform: var(--capitalizeDownloads);
+    /*color: #727272 !important;*/
+    font-weight: 400;
+    transition-property: color;
+    transition-duration: .1s;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+}
 
 /* Other stuff */
 
