@@ -2292,21 +2292,23 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase {
     color: #d5d5d5;
 }
 
-._3yD46y5pd3zOGR7CzKs0mC.online, ._3yD46y5pd3zOGR7CzKs0mC.offline, .awayOrSnooze {
+._3yD46y5pd3zOGR7CzKs0mC.online, ._3yD46y5pd3zOGR7CzKs0mC.offline, .awayOrSnooze, ._3yD46y5pd3zOGR7CzKs0mC.ingame {
+    color: #d5d5d5;
+    background:none;
+    background-color:none;
+}
+
+._3yD46y5pd3zOGR7CzKs0mC.online :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder)::after, ._3yD46y5pd3zOGR7CzKs0mC.offline :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder)::after, .awayOrSnooze :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder)::after, ._3yD46y5pd3zOGR7CzKs0mC.ingame :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder)::after {
     color: #d5d5d5;
 }
 
-._3yD46y5pd3zOGR7CzKs0mC.online :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder)::after, ._3yD46y5pd3zOGR7CzKs0mC.offline :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder)::after, .awayOrSnooze :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder)::after {
-    color: #d5d5d5;
-}
-
-._3yD46y5pd3zOGR7CzKs0mC.online :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder)::after, ._3yD46y5pd3zOGR7CzKs0mC.offline :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder)::after, .awayOrSnooze :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder)::after {
+._3yD46y5pd3zOGR7CzKs0mC.online :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder)::after, ._3yD46y5pd3zOGR7CzKs0mC.offline :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder)::after, .awayOrSnooze :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder)::after, ._3yD46y5pd3zOGR7CzKs0mC.ingame :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder)::after {
     color: inherit;
     display: inline;
     content: "'s Account";
 }
 
-._3yD46y5pd3zOGR7CzKs0mC.online :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder)::after, ._3yD46y5pd3zOGR7CzKs0mC.offline :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder)::after, .awayOrSnooze :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder):hover {
+._3yD46y5pd3zOGR7CzKs0mC.online :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder)::after, ._3yD46y5pd3zOGR7CzKs0mC.offline :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder)::after, .awayOrSnooze :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder):hover, ._3yD46y5pd3zOGR7CzKs0mC.ingame :not(._2jphjrSifC6orDT4g_7Wd):not(.avatarHolder)::after {
     color: inherit;
     display: inline;
 }
