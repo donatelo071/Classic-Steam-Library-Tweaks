@@ -1,12 +1,17 @@
 changes:
 
 
+- accurate account dropdown<br>![accountdropdown](https://github.com/user-attachments/assets/f928d49d-7b07-44fe-97d0-ed7160575b39)
+
+  
 
 - update queued/updating games now have their name properly colored in the library's list view<br>
 ![image](https://github.com/user-attachments/assets/368b61b7-f269-4ae9-a829-e6092f62481a)![steamwebhelper_katJnEsGsW](https://github.com/user-attachments/assets/e1abf7a0-709b-423d-836b-71c2f0fce792)
 
 - styled the steam console<br>
-![console2013](https://github.com/user-attachments/assets/e654d92f-ea78-4ffe-97b5-f2af4c6ee780)![console2015](https://github.com/user-attachments/assets/6b550eac-945f-4f4e-8f2b-562eeaa0f61d)
+![console2013](https://github.com/user-attachments/assets/f6fb689c-d5e4-46ff-895b-81f505c7963a)![console2015](https://github.com/user-attachments/assets/d4a0b978-52c1-4506-88c6-427d60930485)
+
+
 
 - made the "Add a game" button more accurate<br>
 ![steamwebhelper_FzsRabXoSC](https://github.com/user-attachments/assets/6977c501-73a4-4e9e-8aa2-8dfc2597e7b4)
