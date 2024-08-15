@@ -10,7 +10,8 @@ Comment these out like I am doing right now if you miss this stuff */
     display: none !important;
 }
 
-/* Group Chats */
+
+/*Group Chats*/
 .FriendsListChatSection.ChatRoomListContainerParent {
     display: none;
 }

@@ -421,11 +421,21 @@
 	border: var(--playbuttonborderfocus) !important;
 	background: var(--playbuttonfocus) !important;
 }
-
-._3ydigb6zZAjJ0JCDgHwSYA svg /* Button Icons */ {
-	width: 15px !important;
-    height: 15px !important;
+._3AjoLnMNKxYmNTGTJCLfgs._3VOR2AeYATx3qSE0I-Pm-5 svg /* Button Icons */ {
+    width: 17px !important;
+    height: 100% !important;;
     margin-right: 4px !important;
+    
+}
+._3ydigb6zZAjJ0JCDgHwSYA svg {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    margin-right: 4px !important;
+    transition-property: fill,stroke,transform;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
 }
 
 ._2L3s2nzh7yCnNESfI5_dN1.jnXtv79jL6SXXwlJYPtQz /* no sticky header */ {
@@ -454,6 +464,62 @@ div._1mDAVT4sTzFRwJtlKCw2Ws > div._1kiZKVbDe-9Ikootk57kpA._1aKegVl9_lSdNAyWYZQlr
 
 ._3DeO92O5aVkcdwEBCJDjWm._3fLo166MlaNqP8r8tTyRz {
     background: none !important;
+}
+
+/* Old Styled News */
+
+/* Button images again */
+
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX svg {
+    fill: none !important;
+    color: transparent !important;
+	background-image: var(--installbuttonimg);
+    background-position: var(--buttonimgpos);
+    background-repeat: no-repeat;
+}
+
+._3AjoLnMNKxYmNTGTJCLfgs._3VOR2AeYATx3qSE0I-Pm-5 svg {
+    transform: none;
+    fill: none !important;
+    color: transparent !important;
+	background-image: var(--installbuttonimg);
+    background-position: var(--buttonimgpos);
+    background-repeat: no-repeat;
+}
+
+._3AjoLnMNKxYmNTGTJCLfgs._3VOR2AeYATx3qSE0I-Pm-5 svg > *, ._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX svg > * {
+	display: none !important;
+}
+
+/* Play */
+
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX svg.SVGIcon_Button.SVGIcon_Play, ._3AjoLnMNKxYmNTGTJCLfgs._3VOR2AeYATx3qSE0I-Pm-5 svg.SVGIcon_Button.SVGIcon_Play {
+    background-image: var(--playbuttonimg);
+}
+
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:hover svg.SVGIcon_Button.SVGIcon_Play, ._3AjoLnMNKxYmNTGTJCLfgs._3VOR2AeYATx3qSE0I-Pm-5:hover svg.SVGIcon_Button.SVGIcon_Play {
+	background-image: var(--playbuttonimghover);
+
+}
+
+/* Install */
+
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX svg.SVGIcon_Button.SVGIcon_Download, ._3AjoLnMNKxYmNTGTJCLfgs._3VOR2AeYATx3qSE0I-Pm-5 svg.SVGIcon_Button.SVGIcon_Download {
+    background-image: var(--installbuttonimg);
+}
+
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:hover svg.SVGIcon_Button.SVGIcon_Download, ._3AjoLnMNKxYmNTGTJCLfgs._3VOR2AeYATx3qSE0I-Pm-5:hover svg.SVGIcon_Button.SVGIcon_Download {
+    background-image: var(--installbuttonimghover);
+}
+
+/* Pause */
+
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX svg.SVGIcon_Button.SVGIcon_Pause, ._3AjoLnMNKxYmNTGTJCLfgs._3VOR2AeYATx3qSE0I-Pm-5 svg.SVGIcon_Button.SVGIcon_Pause {
+    background-image: var(--pausebuttonimg);
+}
+
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:hover svg.SVGIcon_Button.SVGIcon_Pause, ._3AjoLnMNKxYmNTGTJCLfgs._3VOR2AeYATx3qSE0I-Pm-5:hover svg.SVGIcon_Button.SVGIcon_Pause {
+    background-image: var(--pausebuttonimghover);
 }
 
 /* End Play Button Stuff */
@@ -1064,6 +1130,7 @@ button.DialogButton:hover, ._1EC1xjjUGqI7fqX6PVzJA3:hover, .DialogDropDown._Dial
 	padding: 1px !important;
 }
 
+
 .DesktopUI .pFo3kQOzrl9qVLPXXGIMp:hover, .DesktopUI .pFo3kQOzrl9qVLPXXGIMp._1KPWUt7wYWSfD3V7sYpsyT, ._7K1n9EZg9218K75ZOzcHl .pFo3kQOzrl9qVLPXXGIMp:hover, ._7K1n9EZg9218K75ZOzcHl .pFo3kQOzrl9qVLPXXGIMp._1KPWUt7wYWSfD3V7sYpsyT, .pFo3kQOzrl9qVLPXXGIMp:hover {
     background: #314259 !important;
 	color: var(--Text-master);
@@ -1148,6 +1215,8 @@ img.miniprofile_Frame_2nPON /* Profile Frames */ {
     margin-left: 125px !important;
     right: 0 !important;
     flex-flow: column !important;
+    position:relative !important;
+    float:left;
 }
 
 ._2b6WkTnmJxMuX1biL7aS3C::before {
@@ -2263,7 +2332,6 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase {
 }
 
 ._1TdaAqMFadi0UTqilrkelR ._3OhUxFVlQYr9W5ThxstR8k::before:hover {
-    text-decoration: underline !important;
     cursor: pointer !important;
     color: white !important;
 }
@@ -2275,7 +2343,6 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase {
 }
 
 ._1TdaAqMFadi0UTqilrkelR ._3OhUxFVlQYr9W5ThxstR8k:hover {
-    text-decoration: underline !important;
     cursor: pointer !important
 }
 
